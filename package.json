@@ -1,0 +1,40 @@
+{
+  "name": "has-generator",
+  "version": "0.0.0",
+  "description": "Check if generator functions are supported",
+  "license": "MIT",
+  "repository": "sindresorhus/has-generator",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "browser": "browser.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "browser.js"
+  ],
+  "keywords": [
+    "generator",
+    "generators",
+    "function",
+    "detect",
+    "detection",
+    "check",
+    "has",
+    "supports",
+    "supported",
+    "es2015",
+    "es6"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}

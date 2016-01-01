@@ -1,10 +1,9 @@
 import test from 'ava';
-import x2 from './browser';
-import x from './';
+import m2 from './browser';
+import m from './';
 
 test(t => {
 	const oldNode = /^v0\./.test(process.version);
-	t.true(oldNode ? !x : x);
-	t.true(oldNode ? !x2 : x2);
-	t.end();
+	t.true(oldNode ? !m : m);
+	t.true(oldNode ? !m2 : m2);
 });

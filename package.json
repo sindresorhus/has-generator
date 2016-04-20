@@ -30,8 +30,7 @@
     "has",
     "supports",
     "supported",
-    "es2015",
-    "es6"
+    "es2015"
   ],
   "devDependencies": {
     "ava": "*",
